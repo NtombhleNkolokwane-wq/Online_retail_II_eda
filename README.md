@@ -1,44 +1,28 @@
-#Online Retail II – Exploratory Data Analysis (EDA)
+# Online Retail II - Exploratory Data Analysis
 
-##Project Overview
+## Project Overview
 
-This project presents an Exploratory Data Analysis (EDA) of the Online Retail II dataset completed during **Week 1 of my AI/ML Internship**.
+This project presents an Exploratory Data Analysis (EDA) of the Online Retail II dataset as part of my AI/ML Internship Week 1 assignment.
 
-The primary objective was to understand the dataset, evaluate its quality, identify business trends, and generate meaningful insights without modifying the original data.
+The objective was to understand the structure of the dataset, identify data quality issues, analyze customer purchasing behaviour, and derive business insights without modifying the original data.
 
-This project follows the standard data analysis workflow used in industry and serves as the foundation for future machine learning tasks.
+---
 
-#Objectives
+## Objectives
 
-The project aimed to:
-
-- Load and inspect the dataset
 - Explore the dataset structure
 - Identify missing values and duplicate records
-- Analyze the top-selling products by quantity
-- Analyze the top revenue-generating products
-- Evaluate sales performance across countries
+- Analyze top-selling products
+- Calculate product revenue
+- Analyze sales by country
 - Visualize monthly revenue trends
 - Create a correlation heatmap
 - Detect outliers using box plots
-- Derive business insights from the analysis
+- Generate business insights
 
+---
 
-#Dataset
-
-Dataset: Online Retail II
-
-The dataset contains transactional records from an online retail company, including:
-
-- Invoice Number
-- Product Description
-- Quantity
-- Invoice Date
-- Unit Price
-- Customer ID
-- Country
-
-#Technologies Used
+## Technologies Used
 
 - Python
 - Pandas
@@ -46,61 +30,34 @@ The dataset contains transactional records from an online retail company, includ
 - Matplotlib
 - Seaborn
 - Jupyter Notebook
-- Visual Studio Code
-- Git
-- GitHub
+- VS Code
 
-#Project Structure
+---
 
-```text
-online-retail-ii-eda/
-│
-├── Data/
-├── Notebook/
-├── Screenshots/
-├── README.md
-├── requirements.txt
-└── .gitignore
-```
+## Dataset
 
-#Exploratory Data Analysis
+Online Retail II Dataset
 
-The following analyses were completed:
+The dataset contains transactional records of an online retail company, including invoices, products, quantities, prices, customer IDs, countries, and purchase dates.
 
-- Dataset overview
-- Missing value analysis
-- Duplicate record analysis
-- Top-selling products
-- Revenue analysis
-- Country performance
-- Monthly revenue trends
-- Correlation analysis
-- Outlier detection
+---
 
-Key Business Insights
+## Key Findings
 
-- A small number of products contribute significantly to total sales.
-- High sales volume does not always translate into the highest revenue.
-- Revenue is concentrated in a small number of countries.
-- Monthly sales exhibit noticeable fluctuations.
-- Several extreme transactions were identified and require further investigation during preprocessing.
+- A small number of products generated the majority of sales.
+- Revenue was highly concentrated in a few countries.
+- Revenue varied considerably over time.
+- Several extreme transactions were identified.
+- Missing values and duplicate records were observed but intentionally retained for future preprocessing.
 
+---
 
-#Future Work
+## Future Work
 
-The next phase of this project will include:
+Future stages of this project will include:
 
-- Data Cleaning
-- Feature Engineering
-- Customer Segmentation
-- Predictive Modeling
-- Sales Forecasting
+- Data cleaning
+- Feature engineering
 - Machine Learning
-
-
-#Author
-
-Lerato
-
-AI/ML Intern
-
+- Sales prediction
+- Customer segmentation
